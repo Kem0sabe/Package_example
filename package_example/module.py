@@ -1,0 +1,3 @@
+# package_example/module.py
+def hello():
+    return "Hello from package_example!"
