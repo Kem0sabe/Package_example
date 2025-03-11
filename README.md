@@ -5,4 +5,4 @@ A simple Python package.
 ## Installation
 
 ```sh
-pip install package_example
+pip install CTAB-XTRA

@@ -1,3 +1,3 @@
-[submodule "CTAB_XTRA/CTAB_GAN_EXPANDED"]
-	path = CTAB_XTRA/CTAB_GAN_EXPANDED
+[submodule "CTAB_XTRA"]
+	path = CTAB_XTRA
 	url = https://github.com/Kem0sabe/CTAB_GAN_EXPANDED.git

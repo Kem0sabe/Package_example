@@ -1,3 +1,3 @@
-import package_example
+import CTAB_XTRA
 
-print(package_example.no())  # Output: Hello from package_example!
+print(CTAB_XTRA)  # Output: Hello from package_example
