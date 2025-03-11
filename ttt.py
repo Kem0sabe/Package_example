@@ -1,0 +1,4 @@
+
+
+def no():
+    print("No")
