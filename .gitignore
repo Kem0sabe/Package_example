@@ -2,4 +2,8 @@ __pycache__/
 
 build/
 
-CTAB_XTRA/
+ctab_xtra_dp/
+
+dist/
+
+*.egg-info/

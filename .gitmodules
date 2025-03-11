@@ -1,3 +1,6 @@
 
 [submodule "ctab_xtra"]
 	url = https://github.com/Kem0sabe/CTAB_XTRA_DP.git
+[submodule "ctab_xtra_dp"]
+	path = ctab_xtra_dp
+	url = https://github.com/Kem0sabe/CTAB_XTRA_DP.git

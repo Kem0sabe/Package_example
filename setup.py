@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="CTAB_XTRA",
-    version="0.3.0",
+    name="ctab_xtra_dp",
+    version="0.1.0",
     packages=find_packages(),
     install_requires=[],  # List dependencies here, e.g., ["numpy", "requests"]
     description="A sample Python package",
