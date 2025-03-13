@@ -1,15 +1,21 @@
 from setuptools import setup, find_packages
 
+def read_requirements():
+    with open("ctab_xtra_dp/requirements.txt", encoding="utf-8") as f:
+        return [line.strip() for line in f if line.strip() and not line.startswith("#")]
+
+
 setup(
     name="ctab_xtra_dp",
-    version="0.1.0",
+    version="0.6.1",
     packages=find_packages(),
-    install_requires=[],  # List dependencies here, e.g., ["numpy", "requests"]
+    include_package_data=True,
+    install_requires=read_requirements(),  # List dependencies here, e.g., ["numpy", "requests"]
     description="A sample Python package",
-    long_description=open("README.md").read(),
+    long_description=open("ctab_xtra_dp/README.md").read(),
     long_description_content_type="text/markdown",
-    author="Martin",
-    author_email="martin.larsen@gmail.com",
+    author="kem0sabe",
+    author_email="martivl@stud.ntnu.no",
     url="https://github.com/Kem0sabe/Package_example",  # Update with your GitHub or website
     classifiers=[
         "Programming Language :: Python :: 3",

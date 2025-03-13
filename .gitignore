@@ -7,3 +7,5 @@ ctab_xtra_dp/
 dist/
 
 *.egg-info/
+
+.DS_Store
