@@ -7,7 +7,7 @@ def read_requirements():
 
 setup(
     name="ctab_xtra_dp",
-    version="2.0.0",
+    version="3.1.2",
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),  # List dependencies here, e.g., ["numpy", "requests"]
@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     author="kem0sabe",
     author_email="martivl@stud.ntnu.no",
-    url="https://github.com/Kem0sabe/CTAB_XTRA_DP/",  # Update with your GitHub or website
+    url="https://github.com/Kem0sabe/CTAB_XTRA_DP_REVISED/",  # Update with your GitHub or website
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
