@@ -7,7 +7,7 @@ def read_requirements():
 
 setup(
     name="ctab_xtra_dp",
-    version="1.0.0",
+    version="2.0.0",
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),  # List dependencies here, e.g., ["numpy", "requests"]
